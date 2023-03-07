@@ -106,11 +106,18 @@
     }
 
     footer {
-        background-color: aqua;
+        background-color: rgb(21, 21, 21);
+        
         width: 100%;
         height: inherit;
 
         grid-row-start: 4;
         grid-column-start: 1;
+
+        position: inherit;
+
+        letter-spacing: 0.05rem;
+        text-align: center;
+        color:#8d8d8d;
 
     }
